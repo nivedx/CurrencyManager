@@ -1,0 +1,21 @@
+{
+  "ServiceConfig": {
+    "Modules": {
+      "FrankfurterApi": {
+        "BaseUrl": "https://api.frankfurter.app",
+        "EndPoints": {
+          "HistoricalRates": {
+            "Path": "/",
+            "Method": "GET",
+            "QueryParameters": []
+          },
+          "LatestRates": {
+            "Path": "/latest",
+            "Method": "GET",
+            "QueryParameters": []
+          }
+        }
+      }
+    }
+  }
+}
